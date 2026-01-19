@@ -1,7 +1,5 @@
 #!/usr/bin/env sh
 
-echo "$@"
-
 term=${ROFI_SYSTEMD_TERM-urxvt -e}
 default_action=${ROFI_SYSTEMD_DEFAULT_ACTION-"list_actions"}
 rofi_command=${ROFI_SYSTEMD_ROFI_COMMAND-"rofi $@ -dmenu -i -p"}
